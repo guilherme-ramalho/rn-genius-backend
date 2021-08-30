@@ -1,4 +1,5 @@
 import express from 'express';
+import './config/bootstrap';
 import pusher from './services/pusher';
 
 const app = express();
